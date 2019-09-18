@@ -13,7 +13,7 @@ end
 def pop_with_args(array, arg = 2)
   new_array = []
   iteration = 0
-  while iteration < arg
+  while iteration < arg do
     iteration += 1
     new_array.push(array.pop)
   end 
@@ -27,7 +27,7 @@ end
 def shift_with_args(array, arg = 2)
   new_array = []
   iteration = 0
-  while iteration < arg
+  while iteration < arg do
     iteration += 1
     new_array.push(array.shift)
   end 
