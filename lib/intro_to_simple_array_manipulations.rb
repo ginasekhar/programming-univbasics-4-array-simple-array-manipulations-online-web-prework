@@ -24,7 +24,7 @@ def using_shift(array)
   array.shift
 end
 
-def shift_with_args(array, arg = 2)
+def shift_with_args(array, 2)
   new_array = []
   iteration = 0
   while iteration < arg do
